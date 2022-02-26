@@ -7,7 +7,7 @@ class  Header extends React.Component{
     <div style={{
         position: 'fixed',
         width: '100%',
-        height: '25%',
+        height: '20%',
         'font-weight': 'bold',
         "fontSize":"25px",
         'text-align': 'center',
@@ -16,8 +16,8 @@ class  Header extends React.Component{
           }}>
 	  <p> Dogara Sports Club نادي دوقرا الرياضي  <br></br>
     </p>
-    <p2>          (اربد - دوقرا ) اجتماعي ثقافي رياضي &nbsp; </p2> 
-   <img src="images/Dogara_Main.jpg" height="80" width='120'></img><br></br>
+    <p2>  ( اربد  دوقرا- (اجتماعي . ثقافي . رياضي  </p2>  &nbsp;
+   {/* <img src="images/Dogara_Main.jpg" height="80" width='120'></img><br></br> */}
    
   
     </div>
