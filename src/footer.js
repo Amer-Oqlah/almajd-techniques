@@ -7,7 +7,7 @@ class  Footer extends React.Component{
     <div style={{
         position:'fixed',
         width: '100%',
-        height: '17%',
+        height: '10%',
         'font-weight': 'bold',
         "fontSize":"25px",
         'text-align': 'center',
@@ -16,9 +16,11 @@ class  Footer extends React.Component{
         bottom:"0px",
         overflow:'hidden'
     }}>
-	  <p>  المجد للكمبيوتر <br></br>
-   <p2>     تلفون :0772660594  تركيب كاميرات , بيع وتصليح خلويات و لابتوبات </p2>
-    </p>
+	
+   <p2>  رســـالــتــنـــا:
+تنشئة جيل رياضي ملتزم أخلاقيًا ناجح عمليًا منافس رياضيًا ممتنًا لناديه منتميًا لوطنه
+عن طريق دعم برامجنا الرياضية والاجتماعية والتربوية والتعليمية والنفسية وتأهيل الموارد البشرية فنيا وإداريا وتحقيق شراكة مجتمعية متميزة   </p2>
+    
     </div>
   );
 }

@@ -5,53 +5,30 @@ import Header from "./header.js"
 import Footer from "./footer.js"
 
 const items=[
-{image:'images/image01.jpg',
-              title:'camera 1',
-              price:"24"
+{image:'images/Dogara_Main.jpg',        
+           
 },
-{image:'images/image02.jpg',
-              title:'camera 1',
-              price:"24"
-},
-{image:'images/image03.jpg',
-              title:'camera 1',
-              price:"24"
-},
-{image:'images/image04.jpg',
-              title:'camera 1',
-              price:"24"
-},
-{image:'images/image05.jpg',
-              title:'camera 1',
-              price:"24"
-},
-{image:'images/image06.jpg',
-              title:'camera 1',
-              price:"24"
-},
-{image:'images/image07.jpg',
-              title:'camera 1',
-              price:"24"
-},
-{image:'images/image08.jpg',
-              title:'camera 1',
-              price:"24"
-}
-,
-{image:'images/image09.jpg',
-              title:'camera 1',
-              price:"24"
-}
-,
-{image:'images/image10.jpg',
-              title:'camera 1',
-              price:"24"
-}
-,
-{image:'images/image11.jpg',
-              title:'camera 1',
-              price:"24"
-}
+{image:'images/1.jpeg'},
+{image:'images/2.jpeg'},
+{image:'images/3.jpeg'},
+{image:'images/4.jpeg'},
+{image:'images/6.jpeg'},
+{image:'images/7.jpeg'},
+{image:'images/8.jpeg'},
+{image:'images/9.jpeg'},
+{image:'images/10.jpeg'},
+{image:'images/11.jpeg'},
+{image:'images/12.jpeg'},
+{image:'images/13.jpeg'},
+{image:'images/14.jpeg'},
+{image:'images/15.jpeg'},
+{image:'images/16.jpeg'},
+{image:'images/18.jpeg'},
+{image:'images/19.jpeg'},
+{image:'images/20.jpeg'},
+{image:'images/21.jpeg'},
+{image:'images/22.jpeg'},
+
 ]
 function App() {
   return (
@@ -72,14 +49,13 @@ function App() {
 
   
                                      }}>
-					<h3 style={{'paddingTop':"10%"}}>Electronics</h3>
+					<h3 style={{'paddingTop':"10%"}}></h3>
 					{items.map((item, index) => {
 						return(
 						<div class="card" style={{width: 'auto', height: "auto",  float: "left", margin: "25px"}}>
-						<img class="card-img-top" src={item.image} style={{height: '15rem'}} alt="Card image cap" />
+						<img class="card-img-top" src={item.image} style={{height: '15rem'}}  />
 						<div class="card-body">
-						<h5 class="card-title">{item.title}</h5>
-						<p class="card-text">{item.price} JD</p>
+						<p class="card-text">{item.price} </p>
 						{/* <a class="btn btn-primary" style={{margin: '25%', color: "white"}} onClick={this.itemSelected.bind(this, index)}>Add To Cart</a> */}
 						</div>
 						</div>
@@ -88,8 +64,12 @@ function App() {
      
 				</div>
  
-
+        <div >
+     
+     <Footer/>
+     </div>
     </div>
+    
   );
 }
 
