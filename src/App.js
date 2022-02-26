@@ -52,7 +52,7 @@ function App() {
 					<h3 style={{'paddingTop':"10%"}}></h3>
 					{items.map((item, index) => {
 						return(
-						<div class="card" style={{width: 'auto', height: "auto",  float: "left", margin: "25px"}}>
+						<div class="card" style={{width: 'auto',  float: "left", margin: "25px"}}>
 						<img class="card-img-top" src={item.image} style={{height: '15rem'}}  />
 						<div class="card-body">
 						<p class="card-text">{item.price} </p>
