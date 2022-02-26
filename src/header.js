@@ -16,8 +16,9 @@ class  Header extends React.Component{
           }}>
 	  <p> Dogara Sports Club نادي دوقرا الرياضي  <br></br>
     </p>
+    <p2>          (اربد - دوقرا ) اجتماعي ثقافي رياضي &nbsp; </p2> 
    <img src="images/Dogara_Main.jpg" height="80" width='120'></img><br></br>
-   <p2>          (اربد - دوقرا ) اجتماعي ثقافي رياضي &nbsp; </p2> 
+   
   
     </div>
   );
