@@ -16,8 +16,8 @@ class  Header extends React.Component{
           }}>
 	  <p> Dogara Sports Club نادي دوقرا الرياضي  <br></br>
     </p>
-    <p2>  ( اربد  دوقرا- (اجتماعي . ثقافي . رياضي  </p2>  &nbsp;
-   {/* <img src="images/Dogara_Main.jpg" height="80" width='120'></img><br></br> */}
+    <p2>  ( اربد  دوقرا- (اجتماعي . ثقافي . رياضي  </p2>  <br></br>
+     <p6>Email: mohammed.shlool77@gmail.com </p6> &nbsp;&nbsp;&nbsp; <p6>Phone: 00962787777017-00962787086986</p6> 
    
   
     </div>
